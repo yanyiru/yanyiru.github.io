@@ -84,19 +84,10 @@
 
     void ballCollision(){
       checkKeyPresses();
-      boolean one=(x<(b.x+(b.w/2)));
-      boolean two = ((b.x+(b.w/2))<(x+w));
-      boolean three = y<(b.y+(b.w/2));
-      boolean four = (b.y+(b.w/2))< (y+h);
 
       if((x<(b.x+(b.w/2))) && ((b.x+(b.w/2))<(x+w)) && y<(b.y+(b.w/2)) && (b.y+(b.w/2))< (y+h)){
         b.yVel*=-1;
       }
-      println("1: " + one);
-      println("2: " + two);
-      println("3: " + three);
-      println("4: " + four);
-
 
 
 
