@@ -1,0 +1,9 @@
+body{
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: #242222;
+    color: #ffffff;
+}
+
+li {
+    float: right;
+}
